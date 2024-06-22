@@ -39,8 +39,9 @@ Neste trabalho, foi implementado um programa que utiliza o Algoritmo de Huffman 
 
 Para compilar o projeto, você precisa ter o make instalado. Em seguida, execute o seguinte comando no terminal:
 
-sh
-make
+```sh
+    make
+```
 
 
 Isso gerará um executável chamado huffman na raiz do projeto.
@@ -49,31 +50,31 @@ Isso gerará um executável chamado huffman na raiz do projeto.
 
 Após a compilação, você pode executar o programa com o seguinte comando:
 
-sh
+```sh
 ./huffman
-
+```
 
 ## Exemplos de Uso
 
 ### Exemplo de Utilização do Programa
 
 1. Adicionar caracteres e suas frequências:
-    sh
+    ```sh
     ->add A 3
     ->add C 2
     ->add B 1
     ->add D 1
-    
+    ```
 
 2. Calcular os códigos Huffman:
-    sh
+    ```sh
     ->calc
-    
+    ```
 
 3. Imprimir a tabela de códigos Huffman:
-    sh
+    ```sh
     ->print
-    
+    ```
     Saída esperada:
     
     A com frequencia 3 codificado como 0
@@ -83,18 +84,18 @@ sh
     
 
 4. Codificar uma string:
-    sh
+    ```sh
     ->cod ABACCDA
-    
+    ```
     Saída esperada:
     
     0100011111010 23.21% 92.86%
     
 
 5. Decodificar uma sequência de bits:
-    sh
+    ```sh
     ->dec 0100011111010
-    
+    ```
     Saída esperada:
     
     ABACCDA
